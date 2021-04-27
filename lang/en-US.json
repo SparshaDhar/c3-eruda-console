@@ -1,0 +1,106 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Eruda Console Plugin",
+  "text": {
+    "plugins": {
+      "sparsha_erudaconsole": {
+        "name": "Eruda Console",
+        "description": "Developer Tools and Console for Mobile",
+        "help-url": "https://www.construct.net/en/make-games/addons/551/eruda-console",
+        "properties": {
+          "type": {
+            "name": "Display Type",
+            "desc": "Display type",
+            "items": {
+              "item1": "Embed in Container",
+              "item2": "Window Overlay",
+              "item3": "Window Overlay - Force Global"
+            }
+          },
+          "height": {
+            "name": "Panel Height",
+            "desc": "Default height of the panel."
+          },
+          "transparency": {
+            "name": "Panel Transparency",
+            "desc": "Default transparency of panel."
+          },
+          "theme": {
+            "name": "Panel Theme",
+            "desc": "Default theme of panel",
+            "items": {
+              "item1": "Light",
+              "item2": "Dark",
+              "item3": "Material Oceanic",
+              "item4": "Material Darker",
+              "item5": "Material Lighter",
+              "item6": "Material Palenight",
+              "item7": "Material Deep Ocean",
+              "item8": "Monokai Pro",
+              "item9": "Dracula",
+              "item10": "Arc Dark",
+              "item11": "Atom One Dark",
+              "item12": "Atom One Light",
+              "item13": "Solarized Dark",
+              "item14": "Solarized Light",
+              "item15": "Github",
+              "item16": "Night Owl",
+              "item17": "Light Owl"
+            }
+          }
+        },
+        "aceCategories": {
+          "button": " Default Button",
+          "eruda": " Eruda",
+          "panel": " Panel"
+        },
+        "conditions": {
+          "on-init": {
+            "list-name": "On Init",
+            "display-text": "On Init",
+            "description": "On init"
+          }
+        },
+        "actions": {
+          "button-hide": {
+            "list-name": "Hide Default Button",
+            "display-text": "Hide Default Button",
+            "description": "Hide Default Button"
+          },
+          "destroy-global": {
+            "list-name": "Destroy Eruda Global",
+            "display-text": "Destroy Eruda Global",
+            "description": "Destroy Eruda Global"
+          },
+          "button-show": {
+            "list-name": "Show Default Button",
+            "display-text": "Show Default Button",
+            "description": "Show Default Button"
+          },
+          "panel-show": {
+            "list-name": "Show Panel",
+            "display-text": "Show Panel",
+            "description": "Show Panel"
+          },
+          "panel-hide": {
+            "list-name": "Hide Panel",
+            "display-text": "Hide Panel",
+            "description": "Hide Panel"
+          },
+          "set-scale": {
+            "list-name": "Set Scale",
+            "display-text": "Set Scale ({0})",
+            "description": "Set Scale",
+            "params": {
+              "scale": {
+                "name": "Value",
+                "desc": "Enter Value (1=100% , 1.5=150%)"
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}

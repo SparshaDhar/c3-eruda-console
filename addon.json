@@ -1,0 +1,40 @@
+{
+  "is-c3-addon": true,
+  "type": "plugin",
+  "name": "Eruda Console",
+  "id": "Sparsha_ErudaConsole",
+  "version": "1.0.1",
+  "author": "Sparsha",
+  "website": "https://www.constructfirebase.com/",
+  "documentation": "https://www.construct.net/en/make-games/addons/551/eruda-console",
+  "description": "Developer Tools and Console for Mobile",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js",
+    "c3runtime/init.js",
+    "eruda/core/eruda.js",
+    "eruda/core/eruda-fps.js",
+    "eruda/core/eruda-memory.js",
+    "eruda/core/eruda-orientation.js",
+    "eruda/core/eruda-code.js",
+    "eruda/core/eruda-touches.js",
+    "eruda/core/eruda-features.js",
+    "eruda/external-plugin/eruda-options.js"
+  ]
+}

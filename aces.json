@@ -1,0 +1,64 @@
+{
+  "button": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "button-hide",
+        "scriptName": "ButtonHide",
+        "highlight": false
+      },
+      {
+        "id": "button-show",
+        "scriptName": "ButtonShow",
+        "highlight": false
+      }
+    ],
+    "expressions": []
+  },
+  "eruda": {
+    "conditions": [
+      {
+        "id": "on-init",
+        "scriptName": "OnInit",
+        "highlight": true,
+        "isFakeTrigger": true
+      }
+    ],
+    "actions": [
+      {
+        "id": "destroy-global",
+        "scriptName": "DestroyGlobal",
+        "highlight": true
+      },
+      {
+        "id": "set-scale",
+        "scriptName": "SetScale",
+        "highlight": false,
+        "params": [
+          {
+            "id": "scale",
+            "type": "number",
+            "initialValue": "1"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  },
+  "panel": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "panel-show",
+        "scriptName": "PanelShow",
+        "highlight": false
+      },
+      {
+        "id": "panel-hide",
+        "scriptName": "PanelHide",
+        "highlight": false
+      }
+    ],
+    "expressions": []
+  }
+}
